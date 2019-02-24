@@ -11,10 +11,13 @@ a{
 }
 
 body{
-    background: url(images/storms_pakhus_billede.png) no-repeat;
+    background: url(images/storms_pakhus_billede.png);
+    background: no-repeat;
     background-size: cover;
     padding-bottom: 500px;
 }
+   
+
 
 nav{
     padding: 50px;
@@ -30,7 +33,7 @@ nav ul li{
 }
 
 nav ul li a{
-    color: white;
+    color: black;
     padding: 0 30px;
 }
 
