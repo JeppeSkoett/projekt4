@@ -1,6 +1,7 @@
 *{
     margin: 0;
-    padding
+    padding 0;
+    font-family: sans-serif;
 }
 
 /* =============================== Header =================================== */
@@ -36,8 +37,44 @@ nav ul li a{
 
 /* =============================== Main =================================== */
 
+#mainpage{
+    background-image:url(images/storms_roof.svg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
 
+.textbox{
+    background-color: black;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    border-style: solid;
+    border-color: white;
+    border-width: 10px;
+}
 
+h1, p{
+    color: white;
+}
+
+.button1{
+    border: 1px solid #fff;
+    background: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: sans-serif;
+    cursor: pointer;
+    margin: 10px;
+    color: white;
+    transition: 0.8s;
+}
+
+.button1:hover{
+    color: red;
+}
 
 
 
