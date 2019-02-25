@@ -12,10 +12,9 @@ a{
 
 #landingpage{
     background-image:url(images/storms.svg);
-    height: 100vh;
+    height: 101vh;
     background-size: cover;
     background-position: center;
-    margin-bottom: 0;
 }
 
 nav{
@@ -43,18 +42,31 @@ nav ul li a{
     height: 100vh;
     background-size: cover;
     background-position: center;
-    margin-top: 0;
+    margin-top: -7px;
+    
+}
+.box{
+    padding-top: 230px;
 }
 
-.textbox{
+.textdiv{
     background-color: black;
-    width: 400px;
     height: 400px;
+    width: 400px;
     text-align: center;
     margin: 0 auto;
     border-style: solid;
     border-color: white;
     border-width: 5px;
+
+      
+}
+
+.anchor {
+    display: block;
+    position: relative;
+    top: -240px;
+    visibility: hidden;
 }
 
 h1, p{
@@ -77,9 +89,17 @@ h1, p{
     color: red;
 }
 
+#boder{
+    background-image:url(images/boder.svg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    
+}
 
-
-
+#boderpad{
+    padding-top: 244px;
+}
 /* =============================== Footer =================================== */
 
 
