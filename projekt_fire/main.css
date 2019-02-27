@@ -37,6 +37,8 @@ nav ul li a{
 
 /* =============================== Main =================================== */
 
+/* ========Nav - Book Bord siden======== */
+
 #mainpage{
     background-image:url(images/storms_roof.svg);
     height: 100vh;
@@ -65,7 +67,7 @@ nav ul li a{
 .anchor {
     display: block;
     position: relative;
-    top: -240px;
+    top: -237px;
     visibility: hidden;
 }
 
@@ -88,6 +90,7 @@ h1, p{
 .button1:hover{
     color: red;
 }
+/* ========Nav - Madboder siden======== */
 
 #boder{
     background-image:url(images/boder.svg);
@@ -99,6 +102,19 @@ h1, p{
 
 #boderpad{
     padding-top: 244px;
+}
+
+/* ========Nav - events siden======== */
+
+#events{
+    background-image:url(images/storm_italy.svg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#eventspad{
+    margin-top: -4px;
 }
 /* =============================== Footer =================================== */
 
