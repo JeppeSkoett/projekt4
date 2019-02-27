@@ -44,45 +44,40 @@
                     <button class="button1">Book Her</button>
                 </div>
             </div> 
-            <div id="boderpad"> 
-                <div id="boder"></div>
-            </div>
-            <div id="eventspad"> 
-                <div id="events"></div>
-                
-                <div class="slideshow"> 
-                    <img class="mySlides" src="images/event1.PNG">
-                    <img class="mySlides" src="images/event2.PNG">
-                    <img class="mySlides" src="images/event3.PNG">
-                    <img class="mySlides" src="images/event4.PNG">
-                    <button class="left-button" onclick="plusDivs(-1)">&#10094</button>
-                    <button class="right-button" onclick="plusDivs(+1)">&#10095</button>
-                <script type="text/javascript" >
-                    var slideIndex = 1; 
-                    showDivs(slideIndex);
-                    
-                    function plusDivs(n){
-                        showDivs(slideIndex += n);
-                    }
-                    
-                    function showDivs(n){
-                        var i;
-                        var x = document.getElementsByClassName(mySlides); 
-                        if (n > x.length) {slideIndex = 1}
-                        if (n < 1) {slideIndex = x.length}; 
-                        for (i = 0; i < x.length); i++; {
-                            x[i].style.display = "none";
-                        } 
-                        x[slideIndex-1].style.display = "block";
-                    }
-                    
-                </script>
-                </div>
-                
-            </div>
-            
+        <div id="boderpad"> 
+            <div id="boder"></div>
+        </div>
+    <div id="eventspad"> 
+        <div id="events"></div>
+    </div>
+<div class="slideshow"> 
+    <img class="mySlides" src="images/event1.PNG">
+    <img class="mySlides" src="images/event2.PNG">
+    <img class="mySlides" src="images/event3.PNG">
+    <img class="mySlides" src="images/event4.PNG">
+    <button class="left-button" onclick="plusDivs(-1)">&#10094</button>
+    <button class="right-button" onclick="plusDivs(+1)">&#10095</button>
+</div>
+    <script type="text/javascript" >
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+          showDivs(slideIndex += n);
+        }
+
+        function showDivs(n) {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          if (n > x.length) {slideIndex = 1} 
+          if (n < 1) {slideIndex = x.length} ;
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none"; 
+          }
+          x[slideIndex-1].style.display = "block"; 
+        }
+    </script> 
         </main>
-        
         <footer>
         
         </footer>
