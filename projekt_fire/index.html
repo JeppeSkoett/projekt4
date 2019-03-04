@@ -10,8 +10,8 @@
         <header id="landingpage"> 
             <nav>
                 <ul>
-                    <li><a href="#">EVENTS</a></li>
-                    <li><a href="#">MADBODER</a></li>
+                    <li><a href="#slidebox">EVENTS</a></li>
+                    <li><a href="#videobox">MADBODER</a></li>
                     <li><a href="#textbox">BOOK BORD</a></li>
                 </ul>
             </nav>
@@ -43,40 +43,51 @@
                     </p>
                     <button class="button1">Book Her</button>
                 </div>
-            </div> 
+            </div>
+            
         <div id="boderpad"> 
-            <div id="boder"></div>
+            <div id="boder">
+                <div id="videoplacement">
+                    <a class="anchor" id="videobox"></a>
+                    <video src="videos/storms_pakhus_reklame_film.mp4" play controls></video>
+                </div>
+            </div>
         </div>
-    <div id="eventspad"> 
-        <div id="events"></div>
-    </div>
-<div class="slideshow"> 
-    <img class="mySlides" src="images/event1.PNG">
-    <img class="mySlides" src="images/event2.PNG">
-    <img class="mySlides" src="images/event3.PNG">
-    <img class="mySlides" src="images/event4.PNG">
-    <button class="left-button" onclick="plusDivs(-1)">&#10094</button>
-    <button class="right-button" onclick="plusDivs(+1)">&#10095</button>
-</div>
-    <script type="text/javascript" >
-        var slideIndex = 1;
-        showDivs(slideIndex);
+            
+            <div id="eventspad"> 
+                <div id="events"> 
+                    <div class="slideshowpadding">
+                        <a class="anchor" id="slidebox"></a>
+                        <img class="mySlides" src="images/event1.PNG">
+                        <img class="mySlides" src="images/event2.PNG">
+                        <img class="mySlides" src="images/event3.PNG">
+                        <img class="mySlides" src="images/event4.PNG">
+                        <div id="buttonpad">
+                        <button class="left-button" onclick="plusDivs(-1)">&#10094</button>
+                        <button class="right-button" onclick="plusDivs(+1)">&#10095</button>
+                        </div>
+                        <script type="text/javascript" >
+                            var slideIndex = 1;
+                            showDivs(slideIndex);
 
-        function plusDivs(n) {
-          showDivs(slideIndex += n);
-        }
+                            function plusDivs(n) {
+                              showDivs(slideIndex += n);
+                            }
 
-        function showDivs(n) {
-          var i;
-          var x = document.getElementsByClassName("mySlides");
-          if (n > x.length) {slideIndex = 1} 
-          if (n < 1) {slideIndex = x.length} ;
-          for (i = 0; i < x.length; i++) {
-            x[i].style.display = "none"; 
-          }
-          x[slideIndex-1].style.display = "block"; 
-        }
-    </script> 
+                            function showDivs(n) {
+                              var i;
+                              var x = document.getElementsByClassName("mySlides");
+                              if (n > x.length) {slideIndex = 1} 
+                              if (n < 1) {slideIndex = x.length} ;
+                              for (i = 0; i < x.length; i++) {
+                                x[i].style.display = "none"; 
+                              }
+                              x[slideIndex-1].style.display = "block"; 
+                            }
+                        </script> 
+                    </div>
+                </div>
+            </div> 
         </main>
         <footer>
         

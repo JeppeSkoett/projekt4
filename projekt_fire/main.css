@@ -104,6 +104,23 @@ h1, p{
     padding-top: 244px;
 }
 
+video{
+    height: 400px;
+    width: 800px;
+}
+
+#videoplacement{
+    margin: 0 auto;
+    width: 850px;
+    padding-top: 250px;
+}
+
+#videobox{
+    display: block;
+    position: relative;
+    top: -250px;
+    visibility: hidden;
+}
 /* ========Nav - events siden======== */
 
 #events{
@@ -117,7 +134,26 @@ h1, p{
     margin-top: -4px;
 }
 
+/* ======== Slide Show styling ======== */
+.mySlides{
+    width: 700px;
+    height: 300px;
+    margin: 0 auto;
+    padding-top: 300px;
+}
 
+
+#buttonpad{
+    padding-left: 50%;
+    position: absolute;
+}
+
+#slidebox{
+    display: block;
+    position: relative;
+    top: 450px;
+    visibility: hidden;
+}
 
 /* =============================== Footer =================================== */
 
