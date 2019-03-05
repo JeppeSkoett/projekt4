@@ -157,13 +157,101 @@ video{
 
 /* =============================== Footer =================================== */
 
+.footer{
+    width: auto;
+    height: 100px;
+    background: #424f5f; 
+    margin-top: 1600px;
+}
+
+.socialicons{
+    margin-left: 430px;
+    margin-right: 430px;
+    
+}
+
+.socialicons li{
+    display: inline;
+    
+}
+
+.socialicons li a{
+    border-bottom: none;
+}
+
+.socialicons li img{
+    width: 40px;
+    height: 40px;
+    padding: 25px;
+    margin-right: 100px;
+    
+    
+}
 
 
+/* ========================= Form til "BOOK HER" ============================ */
 
+form{
+    width: 300px;
+    margin: 0 auto;
+}
 
+input{
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
 
+#btnsent{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+textarea{
+    resize: none;
+    margin-top: 5%;
+    width: 300px;
+    height: 100px;
+}
+
+h1{
+    margin-top: 5%;
+}
+
+.textdiv{
+    height: auto;
+}
 
 
 /* =============================== Responsive =================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
