@@ -10,7 +10,7 @@ a{
     text-decoration: none;
 }
 
-#landingpage{
+.landingpage{
     background-image:url(images/storms.svg);
     height: 101vh;
     background-size: cover;
@@ -242,8 +242,6 @@ h1{
     height: auto;
 }
 
-
-/* =============================== Responsive =================================== */
 
 
 
